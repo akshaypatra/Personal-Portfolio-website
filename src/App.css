@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+
+/* APP layout */
+
+.App{
+  display:grid;
+  grid-template-rows:1fr 10fr ;
+  height:100vh;
+  width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* homepage layout */
+
+.homepage{
+  display: grid;
+  grid-template-columns:1fr 1fr;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* personal details */
+.description h1{
+  font-size:45px;
+}
+.p1{
+  font-size:20px;
+}
+.p2{
+  font-size:15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* personal photo */
+.Column-2{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-image: linear-gradient(144deg,#a7a4a7, #323233 50%,#080808);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.picture{
+  background-image: url('../images/IMG_20200928_102321.jpg');
+  background-repeat:no-repeat;
+  background-size: contain;
+  height:70%;
+  width: 57%;
+   
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Column-1,.Column-2{
+  
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* Navbar */
+nav{
+  background-image: linear-gradient(144deg,#040404, #414141 50%,#1f1e1e);
+
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+
+nav a{
+  text-decoration: none;
+  color:  rgb(226, 225, 225);
+}
+
+nav a:hover{
+  
+  color:  rgba(255, 255, 255, 0.567);
+}
+
+ .navigation{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  height: 6vh;
+  color: rgb(255, 255, 255);
+ }
+ .navigation ul{
+  display: flex;
+  list-style: none;
+ }
+ .navigation ul li{
+  margin-left:30px;
+  font-weight: bold;
+ }
+ .navigation ul li:hover{
+  margin-left:30px;
+  color: rgba(240, 248, 255, 0.604);
+ }
+
+
+ .social-media{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  
+  height: 6vh;
+  color: rgb(243, 241, 239);
+}
+
+.social-media a{
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0.809);
+}
+ .social-media a:hover{
+  color: rgba(240, 248, 255, 0.494);
+ }
+
+
