@@ -10,8 +10,8 @@ export default function HomePage() {
                      Exploring the intersection of code and creativity  and  <br>
                 </br>dedicated to push the boundaries of innovation in the digital realm
                 </p>
-
-                <p className='p2'> <h3>Knows </h3> 
+                <h3>Knows </h3> 
+                <p className='p2'> 
                     Web Technologies : HTMl , CSS , React.js ,Bootstrap<br/>
                     Programming Languages : Python , C++ , Javascript <br/>
 

@@ -11,7 +11,7 @@ export default function NavBar() {
     <nav>
         <div className='navigation'>
             <ul>
-                <li><Link to='/Home'>Home</Link></li>
+                <li><Link to='/'>Home</Link></li>
                 <li><Link to='/Work'>Work</Link></li>
                 <li><Link to='/About'>About</Link></li>
             </ul>
