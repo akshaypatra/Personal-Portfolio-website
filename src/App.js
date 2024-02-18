@@ -11,7 +11,7 @@ function App() {
         <div className="row-1"><NavBar/></div>
         <div className='row-2'>
         <Routes>
-          <Route path='/' element={<HomePage/>}/>
+          <Route index path='/' element={<HomePage/>}/>
           <Route path='/Work' element={<WorkPage/>}/>
           <Route path='/About' element={<AboutPage/>}/>
         </Routes>

@@ -5,6 +5,18 @@ export default function WorkPage() {
     <section className="workPage-container">
       <div class="ag-format-container">
         <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <a href="https://github.com/akshaypatra/News-Daily-website" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">News Website</div>
+
+              <div class="ag-courses-item_date-box">
+                Tech stack:
+                <span class="ag-courses-item_date">React.js</span>
+              </div>
+            </a>
+          </div>
           <div class="ag-courses_item">
             <a href="https://github.com/akshaypatra/College-Community" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
               <div class="ag-courses-item_bg"></div>
@@ -101,18 +113,7 @@ export default function WorkPage() {
             </a>
           </div>
 
-          <div class="ag-courses_item">
-            <a href="https://github.com/akshaypatra/Personal-Portfolio-website" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-
-              <div class="ag-courses-item_title">Personal Portfolio Website</div>
-
-              <div class="ag-courses-item_date-box">
-                Tech stack:
-                <span class="ag-courses-item_date">React.js</span>
-              </div>
-            </a>
-          </div>
+          
         </div>
       </div>
     </section>
