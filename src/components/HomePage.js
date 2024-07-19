@@ -9,7 +9,7 @@ export default function HomePage() {
            <div className='description'>
             <div>
                 <h1>Hello , I am Akshay Patra</h1>
-                <p className='p1'> I am a front-end web developer,<br/>
+                <p className='p1'> I am a  web developer,<br/>
                      Exploring the intersection of code and creativity  and  <br>
                 </br>dedicated to push the boundaries of innovation in the digital realm
                 </p>

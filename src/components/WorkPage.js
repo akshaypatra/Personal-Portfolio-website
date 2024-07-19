@@ -13,12 +13,12 @@ export default function WorkPage() {
 
               <div class="ag-courses-item_date-box">
                 Tech stack:
-                <span class="ag-courses-item_date">React.js</span>
+                <span class="ag-courses-item_date">React,External API</span>
               </div>
             </a>
           </div>
           <div class="ag-courses_item">
-            <a href="https://github.com/akshaypatra/College-Community" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
+            <a href="https://github.com/akshaypatra/College-Community-V0.2" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
               <div class="ag-courses-item_bg"></div>
 
               <div class="ag-courses-item_title">
@@ -27,7 +27,22 @@ export default function WorkPage() {
 
               <div class="ag-courses-item_date-box">
                 Tech Stack:
-                <span class="ag-courses-item_date">React.js</span>
+                <span class="ag-courses-item_date">MERN,Bootstrap</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="https://github.com/akshaypatra/Little-Lemon-Restaurant" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+                  Little Lemon Restaurant
+              </div>
+
+              <div class="ag-courses-item_date-box">
+                Tech Stack:
+                <span class="ag-courses-item_date">Python,Django</span>
               </div>
             </a>
           </div>
@@ -43,6 +58,21 @@ export default function WorkPage() {
               <div class="ag-courses-item_date-box">
               Tech Stack:
                 <span class="ag-courses-item_date">React.js , Bootstrap</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="https://akshaypatra.github.io/TextUtils-website/" target="_blank"  rel="noreferrer" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+                    MyNotebook
+              </div>
+
+              <div class="ag-courses-item_date-box">
+              Tech Stack:
+                <span class="ag-courses-item_date">MERN, Bootstrap</span>
               </div>
             </a>
           </div>
